@@ -1,0 +1,17 @@
+.headerContainer {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    padding: 2rem 2rem 2rem 2rem;
+    border-bottom: 1px solid var(--gray-100);
+
+    p {
+        margin-left: 1rem;
+        padding: 0.25rem;
+    }
+    span {
+        margin-left: auto;
+        text-transform: capitalize;
+    }
+    justify-content: space-around;
+}
