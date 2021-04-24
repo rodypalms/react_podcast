@@ -9,9 +9,9 @@ export function Header() {
 
     return (
         <header className={styles.headerContainer}>
-            <img src="../logo.svg" alt="Rodcast"/>
+            <img src="../logoR.png" alt="Rodcast"/>
             
-            <p>O melhor para você ouvir, sempre</p>
+            <p>melhor para você ouvir, sempre</p>
             
             <span>{currentDate}</span>
         </header>
